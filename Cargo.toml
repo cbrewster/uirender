@@ -3,4 +3,15 @@ name = "uirender"
 version = "0.1.0"
 authors = ["Connor Brewster <connor.brewster@eagles.oc.edu>"]
 
+[dependencies.webrender]
+git = "https://github.com/servo/webrender"
+
+[dependencies.webrender_traits]
+git = "https://github.com/servo/webrender"
+default_features = false
+
 [dependencies]
+app_units = "0.3"
+euclid = "0.10"
+gleam = "0.2"
+glutin = "0.6"
