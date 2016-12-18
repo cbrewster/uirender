@@ -12,6 +12,5 @@ default_features = false
 
 [dependencies]
 app_units = "0.3"
-euclid = "0.10"
 gleam = "0.2"
 glutin = "0.6"
