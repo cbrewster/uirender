@@ -9,7 +9,8 @@ extern crate webrender;
 extern crate webrender_traits;
 
 pub mod window;
-pub mod primitives;
+pub mod style;
+pub mod object;
 
 pub mod units {
     pub use webrender_traits::{LayoutRect, LayoutSize, LayoutPoint};
